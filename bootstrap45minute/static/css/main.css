@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #300
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: #f85c37;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0px;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-inverse {
+  background: #2d2d2d;
+  border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background: #ff7878
+}
+
+.navbar-inverse .navbar-brand {
+  color: #999;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+#header {
+  background: url('../img/background-work.jpg') no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center;
+  min-height: 500px;
+  width: 100%auto;
+
+  background-size: 100%;
+
+
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+
+#header h1 {
+  margin-top: 100px;
+  color: #b5e3ea;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 2px black, 0 0 1em #b5e3ea;
+}
+
+#header h2 {
+  background-color: orange;
+  border-radius: 15px;
+  opacity: 0.8;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.info-block {
+  padding-top: 35px;
+}
+
+.info-block h4 {
+  font-size: 25px;
+}
+
+#last-picture {
+  width: 200px;
+  height: 400px;
+  border-radius: 25px;
+  margin: 15px;
+}
+
+#portfolio {
+  background: #e0e0e0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#portfolio h4 {
+  font-size: 40px;
+}
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.laptop {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-bottom: 0;
+}
+
+.laptop h4 {
+  font-size: 35px;
+}
+
+.laptop img {
+  border-radius: 10px;
+}
+
+#partner {
+  background: #ebebeb;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#partner h4 {
+  font-size: 45px;
+}
+
+#partner img {
+  width: 175px;
+  height: 75px;
+  margin: 15px;
+}
+
+#red-block {
+  background: #ff7878;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#red-block h4 {
+  color: white;
+  font-size: 45px;
+}
+
+#red-block p {
+  color: white;
+}
+
+#footer {
+  background: #2d2d2d;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#footer i {
+  color: #dbdbdb;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#footer i:hover{
+  color: #ff7878;
+}

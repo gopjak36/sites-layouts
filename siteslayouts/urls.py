@@ -2,9 +2,9 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    # Examples:
-    # url(r'^$', 'siteslayouts.views.home', name='home'),
-    # url(r'^blog/', include('blog.urls')),
+
+    # Bootstrap45minute urls:
+    url(r'^bootstrap45minute/', include('bootstrap45minute.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
 ]
